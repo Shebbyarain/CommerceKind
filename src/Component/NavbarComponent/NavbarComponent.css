@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.parent {
+    font-family: var(--font-family);
+   width: auto;
+
+  }
+  :root {
+    --font-family: 'Montserrat', sans-serif;
+  }
+  *
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Top bar section */
+  .child1 {
+    background-color: #292E4C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+  }
+  
+  /* Left side with contact info */
+  .p1 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .email-container, .phone-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+
+  }
+  .email-container
+  {
+    margin-left: 60px;
+  }
+  .socials{
+    margin-right: 60px;
+  }
+  
+  /* Right side with links and socials */
+  .p2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .divider {
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .socials {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+  }
+  
+  .socials a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Main navbar section */
+  .child2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+  }
+  
+  .logo img {
+    height: 92px;
+    margin-left: 30px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 48px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #292E4C;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search {
+    color: #333;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .try-button {
+    background-color: #7039d4;
+    color: white;
+    border: 3px solid #7039d4;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 176px;
+    height: 54px;
+    font-weight: bold;
+    font-size: 18px;
+   margin-right: 30px;
+  }
+  
+  .socials a:hover {
+    color: #0ea498;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for navigation links */
+  .links a:hover {
+    color: #0ea498;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for main navigation links */
+  .navigation a:hover {
+    color: #0ea498;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for the Try button */
+  .try-button:hover {
+    background-color: white;
+    color: #7039d4;
+    /* border: 2px solid #7039d4; */
+    transition: all 0.3s ease;
+  }
