@@ -1,3 +1,4 @@
+import React from "react";
 import "./Services.css";
 import SerImage1 from '../../assets/Services-image1.png';
 import SerImage2 from '../../assets/Services-image2.png';
