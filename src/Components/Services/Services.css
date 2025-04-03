@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* Wrap everything in the .services-component class */
+.services-component * {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif, "Montserrat";
+}
+
+.services-component :root {
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.services-component body {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  background-color: white;
+  margin: 0;
+  min-width: 320px;
+  height: 100%;
+}
+
+.services-component__TOP {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-component__upper-container {
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-component__title {
+    text-align: left;
+    font-size: 28px;
+    color: #6C30ED;
+    line-height: 31px;
+    margin-bottom: 20px;
+    margin-top: 75px;
+}
+
+.services-component__subtitle {
+    text-align: left;
+    height: 152px;
+    color: #292E4C;
+    font: Montserrat;
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 20px;
+}
+
+.services-component__services-section {
+    margin-top: 20px;
+    background-color: white; 
+    text-align: center;
+}
+
+.services-component__cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    row-gap: 35px;
+    column-gap: 45px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.services-component__card {
+    margin: 0px !important;
+    min-height: 350px;
+    cursor: pointer;
+    background: white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    row-gap: 35px;
+    border-style: none;
+    column-gap: 45px;
+    width: 340px;
+    text-align: left;
+    border: 20px 20px 20px 20px #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 12px;
+}
+
+.services-component__card-image {
+    width: 83px;
+    height: 83px;
+    transition: all 0.1s linear;    
+    background-color: white;
+    border-radius: 10px;
+}
+
+.services-component__card-image-div {
+    display: inline-block;
+    padding: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services-component__card:hover .services-component__card-image-div {
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    padding: 1px;
+}
+
+.services-component__card:hover img {
+    transform: scale(0.80);
+}
+
+.services-component__card h2 {
+    margin-top: 10px;
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    color: #292E4C;
+    line-height: 1.3em;
+    font-family: "Montserrat", Sans-serif !important;
+}
+
+.services-component__card p {
+    font-size: 16px;
+    color: grey;
+    font-family: "Poppins", sans-serif;
+}
+
+.services-component__card:hover {
+    background-color: #292E4C;
+    color: white;
+}
+
+.services-component__card:hover h2,
+.services-component__card:hover p {
+    color: white;
+}
+
+.services-component__btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services-component__btn button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    padding: 20px 60px 20px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #292E4C;
+    cursor: pointer;
+    transition: all 0.1s linear;    
+    border-radius:  5px 5px 5px;   
+    line-height: 30px;
+    color-scheme: light dark;
+}
+
+.services-component__btn button:hover {
+    background-color: white;
+    color: #242424;
+    border: #242424 2px solid;
+}
+
