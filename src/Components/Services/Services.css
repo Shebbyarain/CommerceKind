@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-
 /* Wrap everything in the .services-component class */
 .services-component * {
     margin: 0px;
@@ -10,26 +9,26 @@
 }
 
 .services-component :root {
-  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .services-component body {
-  display: flex;
-  place-content: center;
-  place-items: center;
-  background-color: white;
-  margin: 0;
-  min-width: 320px;
-  height: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    background-color: white;
+    margin: 0;
+    min-width: 320px;
+    height: 100%;
 }
 
 .services-component__TOP {
@@ -67,7 +66,7 @@
 
 .services-component__services-section {
     margin-top: 20px;
-    background-color: white; 
+    background-color: white;
     text-align: center;
 }
 
@@ -88,10 +87,7 @@
     cursor: pointer;
     background: white;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
-    padding-top: 39px;
-    padding-bottom: 39px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 39px 30px;
     row-gap: 35px;
     border-style: none;
     column-gap: 45px;
@@ -105,7 +101,7 @@
 .services-component__card-image {
     width: 83px;
     height: 83px;
-    transition: all 0.1s linear;    
+    transition: all 0.1s linear;
     background-color: white;
     border-radius: 10px;
 }
@@ -113,12 +109,11 @@
 .services-component__card-image-div {
     display: inline-block;
     padding: 1px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .services-component__card:hover .services-component__card-image-div {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color: white;
     padding: 1px;
 }
@@ -154,21 +149,19 @@
 
 .services-component__btn {
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .services-component__btn button {
     margin-top: 30px;
-    margin-bottom: 30px;
     border: 1px solid transparent;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 60px;
     font-size: 20px;
     font-weight: 500;
     font-family: inherit;
     background-color: #292E4C;
     cursor: pointer;
-    transition: all 0.1s linear;    
-    border-radius:  5px 5px 5px;   
+    transition: all 0.1s linear;
+    border-radius: 5px;
     line-height: 30px;
     color-scheme: light dark;
 }
@@ -176,6 +169,5 @@
 .services-component__btn button:hover {
     background-color: white;
     color: #242424;
-    border: #242424 2px solid;
+    border: 2px solid #242424;
 }
-
