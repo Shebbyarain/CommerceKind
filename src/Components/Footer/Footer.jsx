@@ -15,9 +15,7 @@ const Footer = () => {
                     <img className='image-1' src={frame1} alt="" />
                 </div>
                 <p>
-                    CommerceKind is your trusted <br />partner for Amazon’s success. We <br />
-                    empower businesses to grow their <br /> stores and accounts with tailored <br />
-                    solutions and proven expertise.
+                    CommerceKind is your trusted partner for Amazon’s success. We empower businesses to grow their stores and accounts with tailored solutions and proven expertise.
                 </p>
                 <div className='Footerpt-1-images'>
                     <a href="">
@@ -59,7 +57,7 @@ const Footer = () => {
             <div className='Footerpt-3'>
                 <h4>Newsletter</h4>
                 <div className="Footer-input-wrapper">
-                    <input type="text" placeholder="Enter Your Email" className="abc" />
+                    <input type="text" placeholder="Enter Your Email" className="input-field" />
                     <button type="button">Subscribe</button>
                 </div>
                 <h4>Phone: </h4>
