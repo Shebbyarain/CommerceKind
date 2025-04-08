@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import frame1 from '../../assets/Footer-Frame.png';
-import frame2 from '../../assets/Group-10.png';
-import frame3 from '../../assets/Group-12.png';
-import frame4 from '../../assets/Group-11.png';
-import frame5 from '../../assets/Group-13.png';
+import frame2 from '../../assets/facebook.png';
+import frame3 from '../../assets/twitter.png';
+import frame4 from '../../assets/insta.png';
+import frame5 from '../../assets/linkedin.png';
 
 const Footer = () => {
     return (
@@ -19,16 +19,16 @@ const Footer = () => {
                 </p>
                 <div className='Footerpt-1-images'>
                     <a href="">
-                        <img src={frame2} alt="" />
+                        <img src={frame2} alt="FCAEBOOK_IMAGE" />
                     </a>
                     <a href="">
-                        <img src={frame3} alt="" />
+                        <img src={frame3} alt="TWITTER_IMAGE" />
                     </a>
                     <a href="">
-                        <img src={frame4} alt="" />
+                        <img src={frame4} alt="INSTAGRAM_IMAGE" />
                     </a>
                     <a href="">
-                        <img src={frame5} alt="" />
+                        <img src={frame5} alt="LINKEDIN_IMAGE" />
                     </a>
                 </div>
             </div>
