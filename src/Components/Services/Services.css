@@ -160,7 +160,7 @@
     font-family: inherit;
     background-color: #292E4C;
     cursor: pointer;
-    transition: all 0.1s linear;
+    transition: all 0.3s ease;
     border-radius: 5px;
     line-height: 30px;
     color-scheme: light dark;
